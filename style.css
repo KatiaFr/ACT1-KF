@@ -1,0 +1,164 @@
+body { 
+      background-color: whitesmoke;
+}
+/* estilos y formatos de textos y letras */
+h1, h2 {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+p, h3, h4, h5, h6, table, li { 
+font-family: "Trebuchet MS", Verdana, sans-serif;
+}
+
+p, table, li {
+      font-size:80%;
+}
+h3, h4 {
+      font-size:95%;
+}
+
+/* código de la parte superior que entra en el header: */
+
+header {
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-bottom: 10px;
+box-shadow: 0px 0px 50px rgba(101, 120, 197, 0.378);
+      box-shadow: 0px 0px 50px rgba(101, 120, 197, 0.378);
+      box-shadow: 0px 0px 20px rgba(101, 120, 197, 0.378);    
+}
+
+menu {
+    height: 70px;  
+    padding: 20px;
+    display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+}
+.logoweb {
+          height: 100px;
+          width: 100px;
+}
+header, h1 {
+  color: rgb(101, 121, 197);
+  text-align: center;
+}
+/*formato en los links del menu ------ */
+.linkmenu {
+padding-left: 2px;
+padding-right: 2px;
+  
+}
+a:link {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+menu a:link {
+  color: black;
+  text-decoration:none;
+  font-weight: 300;
+   font-size: 20px; 
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  background-color: rgba(101, 120, 197, 0.378);
+  font-size: 20px; 
+}
+menu a:hover {
+  background-color: rgba(101, 120, 197, 0.542);
+  font-size: 27px; 
+}
+
+
+/* estilo de la tabla: */
+
+table, th, td {
+  border: none;
+  text-align: center;
+ padding: 2px;
+}
+th {
+background-image: linear-gradient(to top, rgba(253, 91, 172, 0.624), rgba(255, 56, 155, 0.802));    
+}
+
+tr { 
+  background-color: rgba(101, 120, 197, 0.767);
+  
+}
+
+  /*código del footer:----------------- */
+footer {
+       display: block;
+  margin-top: 20px;
+  margin-right: 10px;
+      padding: 2%;
+      min-height: 50px;
+  box-shadow: -1px -5px 10px rgba(148, 159, 201, 0.665);
+background-color: grey;
+}
+  footer >h3 {
+    color: white;
+    text-align: center;
+    
+}
+
+/*estilo de las columnas y artículos: */
+main {
+  margin-left: 40px;
+  margin-right: 40px;
+    background-color: white;
+       display: flex;
+       flex-direction: row;
+       justify-content: space-between;
+}
+
+section {
+      display: flex;
+      flex-direction: column;
+      padding: 5px;
+} 
+    .section1 {
+      -webkit-order: 1;
+      order: 1;
+      flex: 37%;
+      margin-right: 15px;
+    }
+    .section2 {
+      -webkit-order: 2;
+      order: 2;
+      flex: 37%;
+       margin-left: 15px;
+  margin-top: 30px;
+    }
+    .section3 {
+      -webkit-order: 3;
+      order: 3;
+      flex: 26%;
+      background-color: rgba(221, 221, 321, 1.501);
+ margin-left: 15px;
+  
+    }
+  
+
+/*línea-borde que divide cada artículo del siguiente */
+article {
+      border-bottom: 2px solid gray;
+}    
+/*formato de imágenes*/
+
+/*imágenes en general*/
+ img {
+      width: 90%;
+}
+  
+/*imágenes hijas del aside*/
+aside > img {
+width: 100%;
+ }
+
+#mainPage2 img {
+  width: 100%;
+}
